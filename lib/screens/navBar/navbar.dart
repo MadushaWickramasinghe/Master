@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
+import 'package:jennings/screens/Activity/activities.dart';
 import 'package:jennings/screens/Home.dart';
 import 'package:jennings/screens/Home/MainHome.dart';
 import 'package:jennings/screens/Settings/Settings.dart';
@@ -18,7 +19,7 @@ class _NavBarState extends State<NavBar> {
   int _selectedIndex = 0;
   final List<Widget> _widgetOption =[
     MainHome(),
-    Notes(),
+    Activities(),
     Settings()
   ];
 
@@ -53,7 +54,7 @@ class _NavBarState extends State<NavBar> {
                 ),
                 GButton(
                   icon: Icons.notes,
-                  text: 'Note',
+                  text: 'Activities',
                 ),
                 GButton(
                   icon: Icons.settings,

@@ -75,7 +75,7 @@ class _MainHomeState extends State<MainHome> {
                               dotSpacing: 15.0,
                               dotColor: Colors.lightGreenAccent,
                               indicatorBgPadding: 5.0,
-                              dotBgColor: Colors.purple.withOpacity(0.5),
+                              dotBgColor: Colors.transparent,
                               borderRadius: true,
                             )
                         ),
